@@ -11,3 +11,4 @@ For this project I will be creating a simple product preview card with an image 
 
 # Live
 
+https://product-info-preview-card.netlify.app/
