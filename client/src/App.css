@@ -87,7 +87,37 @@
 }
 
 @media (max-width: 415px) {
-  .main-card-content {
+  .App {
+    height: 100vh;
+  }
+  .App .card-main-content {
     flex-direction: column;
+    height: 90%;
+    width: 80%;
+    top: 5%;
+    left: 5%;
+  }
+  .App .card-main-content .product-img {
+    width: 100%;
+    height: 50%;
+  }
+  .App .card-main-content .card-info .product-type {
+    letter-spacing: 4px;
+  }
+  .App .card-main-content .card-info .product-name {
+    font-size: 38px;
+  }
+  .App .card-main-content .card-info .product-prices .discounted-price {
+    font-size: 32px;
+  }
+  .App .card-main-content .card-info .product-prices .original-price {
+    position: relative;
+    left: -60px;
+  }
+  .App .card-main-content .card-info .info-button {
+    border-radius: 20px;
+    height: 50px;
+    width: 90%;
+    font-size: 15px;
   }
 }/*# sourceMappingURL=App.css.map */

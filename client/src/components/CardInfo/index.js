@@ -1,5 +1,6 @@
 import ProductImage from '../Assets/image-product-desktop.jpg';
 import Cart from '../Assets/icon-cart.svg';
+import '../../App.css';
 
 const CardInfo = () => {
     return(
